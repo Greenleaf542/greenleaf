@@ -1,0 +1,63 @@
+.banner
+{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(36, 214, 66, 0.7),rgba(36, 214, 66, 0.7)), url('../../img/Web_design.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text
+{
+    text-align: center;
+    max-width: 800px;
+}
+.First-text
+{
+    font-size: 20px;
+    position: absolute;
+    top: 285px;
+    left: 330px;
+}
+.Middle-text
+{
+    font-size: 100px;
+    position: absolute;
+    top: 270px;
+    left: 330px;
+}
+.Last-text
+{
+    font-size: 20px;
+    position: absolute;
+    top: 384px;
+    right: 248px;
+}
+@media (max-width:1200px){
+   
+    .First-text
+{
+    font-size: 20px;
+    position: absolute;
+    top: 190px;
+    left: 255px;
+}
+.Middle-text
+{
+    font-size: 100px;
+    position: absolute;
+    top: 175px;
+    left: 258px;
+}
+.Last-text
+{
+    font-size: 20px;
+    position: absolute;
+    top: 280px;
+    right: 300px;
+}
+  }

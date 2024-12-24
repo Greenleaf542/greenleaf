@@ -1,0 +1,54 @@
+.footer-background
+{
+    background: #66C231; 
+   margin-top: 80px;
+   height: 275px;
+   color: #fff;
+}
+.Second-container
+{
+    padding-top: 35px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(270px, 1fr));
+}
+.Second-container ul 
+{
+    padding-top: 20px;
+}
+.Second-container ul li
+{
+    list-style: none;
+}
+.left-side
+{
+    float: left;
+}
+.right-side
+{
+    float: right;
+    position: absolute;
+    right: 200px;
+}
+.last-footer-text
+{
+   padding-top: 50px;
+}
+.link-hover ul li
+{
+    cursor: pointer;
+}
+
+@media (max-width:1200px)
+{
+  .Second-container
+  {
+    
+    grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+    
+}  
+.right-side
+{
+    right: 155px;
+} 
+}

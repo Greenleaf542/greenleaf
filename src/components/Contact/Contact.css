@@ -1,0 +1,50 @@
+.contact-text
+{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.contact-text h3
+{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.contact-text h3 span
+{
+    color: #66C231;
+}
+
+.btn2
+{
+    background: #66C231;
+    color: #fff;
+    padding: 7px 25px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 608px;
+    margin-top: 22px;
+}
+.btn2:hover
+{
+    box-shadow: 0px 5px 10px rgba(10, 10, 10, 0.2);
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+.bx-right-arrow-circle
+{
+    font-size: 18px;
+}
+@media (max-width:1200px)
+{
+    .contact-text button
+    {
+        position: absolute;
+        left: 510px;
+    }
+}

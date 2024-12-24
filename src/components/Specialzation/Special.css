@@ -1,0 +1,88 @@
+.Main_class
+{
+    padding-top: 120px;
+}
+.heading1
+{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.heading1 span
+{
+    color: #66C231;
+}
+.heading1 img
+{
+    width: 50px;
+    position: absolute;
+    top: 1239px;
+    left: 508px;
+}
+.pargraph
+{
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+.Right-text-button button
+{
+    width: 198px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin:15px 0 0 51px;
+    font-size: 16px;
+    background-color: #66C231;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.Right-text-button button:hover
+{
+    background: none;
+    border: 2px solid #66C231;
+    color: #66C231;
+    border-radius: 5px;
+    transition:.5s ease;
+}
+.Left-text-background
+{
+    background: #66C231;
+    opacity: 60%;
+    width: 58%;
+    height: 245px;
+    position: absolute;
+    left: 374px;
+    top: 1392px;
+}
+.Top p
+{
+    
+    font-size: 16.5px;
+    position: absolute;
+    left: 416px;
+    right: 235px;
+    top: 1410px;
+    color: #fff;
+}
+@media (max-width:1200px)
+{
+    .Left-text-background{
+        width: 72%;
+        position: absolute;
+        left: 282px;
+        top: 1200px;
+    }
+    .Top p
+{
+    position: absolute;
+    left: 300px;
+    right: 100px;
+    top: 1220px;
+    
+}
+}
